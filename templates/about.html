@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}
+ABOUT
+{% endblock %}
+
+{% block content %}
+<section class="info-us" style="padding-top: 5px;">
+<center><h1 style="font-weight: 700; font-family: 'Poppins';">About Us</h1></center>
+<br>
+    <div class="row">
+        <div class="col-6">
+        <img src="{{ url_for('static',filename='images/boy (3).png')}}" style="width: 40%;">
+        <br><br>
+        <h1 style="font-weight:600; font-size: 36px; font-family: 'Poppins'; ">Arjav Parekh</h1>
+        </div>
+        <div class="col-6">
+            <img src="{{ url_for('static',filename='images/girl.png')}}" style="width: 40%;">
+            <br><br>
+        <h1 style="font-weight:600; font-size: 36px; font-family: 'Poppins'; ">Riddhi Mistry</h1>
+        </div>
+    
+    </div>
+
+</section>
+
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends 'base.html' %} {% block title %} HOME {% endblock %} {% block content
+%}
+<div class="home-screen" style="padding-bottom: 20%">
+
+
+      <div class="row" style="padding-left: 30px; padding-right: 30px;">
+        <div class="col-12" style="margin-top:200px; margin-bottom: 15px;">
+          <form action="/ioi">
+            <button class="btn btn-block btn-primary" style="height: 50px;">Image in Image</button>
+          </form>
+        </div>
+<div class="col-12" style="text-align: center;"> <h1 style="color: white; font-size: 50px; font-weight: 700;">OR</h1></div>
+        <div class="col-12" style="margin-top: 15px;">
+          <form action="/toi">
+            <button class="btn btn-block btn-primary" style="height: 50px;" >Text in Image</button>
+          </form>
+        </div>
+      </div>
+  
+  </div>
+
+  {% endblock %}
+</div>
+
+
+<!-- <form action="#" method="POST">
+  <select name="book-name-knn" class="custom-select" >
+    <option selected >Select Book</option>
+    {% for book in book_list %}
+    <option value="{{book}}" >{{book}}</option>
+    {% endfor %}
+  </select>
+</div>
+</div>
+<div class="row " >
+<div class="col-lg-6 mx-auto mt-3">
+<button type="submit" class="btn btn-primary btn-block" value="submit">Submit</button>
+</form> -->
